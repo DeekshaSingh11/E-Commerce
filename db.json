@@ -1,0 +1,80 @@
+{
+  "seller": [
+    {
+      "name": "Deeksha",
+      "email": "seller@g.com",
+      "password": "abc@123",
+      "id": 1
+    },
+    {
+      "name": "diksha Sindhu",
+      "email": "seller1@gmail.com",
+      "password": "abc@123",
+      "id": 2
+    },
+    {
+      "name": "diksha raj",
+      "email": "seller2@gmail.com",
+      "password": "abc@1234",
+      "id": 3
+    },
+    {
+      "name": "hgjgh",
+      "password": "Diksha@143",
+      "email": "hghghjjhg",
+      "id": 4
+    },
+    {
+      "name": "hgjgh",
+      "password": "Diksha@143",
+      "email": "hghghjjhg",
+      "id": 5
+    },
+    {
+      "data": {
+        "name": "yttyty",
+        "password": "trt",
+        "email": "amit.ameotech@gmail.com"
+      },
+      "id": 23
+    }
+  ],
+  "products": [
+    {
+      "name": "techdemo",
+      "price": "700000",
+      "color": "whitedd",
+      "category": "mobilehh",
+      "description": "x xz",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaoejcQISYY60BRjltg58OsMVRQKvfoh095g&usqp=CAU",
+      "id": 9
+    },
+    {
+      "name": "moto",
+      "price": "5000",
+      "color": "white",
+      "category": "mobile",
+      "description": "xczzxc",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoxxjUd-vKeC8GIBbyiNTTEwQCnqzJBbHjKA&usqp=CAU",
+      "id": 10
+    },
+    {
+      "name": "Realme",
+      "price": "5000",
+      "color": "black",
+      "category": "mobile",
+      "description": "xzcx",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoPJU4GS9L2qwkXAoxIfMaN8gv1370Bt_hKQ&usqp=CAU",
+      "id": 11
+    },
+    {
+      "name": "keypad",
+      "price": "5000",
+      "color": "white",
+      "category": "mobile",
+      "description": "df",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyop0nZcemKXTz1IPPgGol0zjTyEpdk5rnFQ&usqp=CAU",
+      "id": 12
+    }
+  ]
+}

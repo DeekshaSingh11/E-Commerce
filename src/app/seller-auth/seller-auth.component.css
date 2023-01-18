@@ -1,0 +1,23 @@
+
+.sign-up h1 {
+    text-align: center;
+    margin: 80px 0 50px 0;
+    color: blueviolet;
+}
+.para{
+    text-align: center;
+    margin-top: 24px;
+}
+.sign-in h1{
+    text-align: center;
+    margin: 80px 0 50px 0;
+    color: blueviolet;
+}
+.user-btn{
+    color: blueviolet;
+    
+}
+.error{
+    color: red;
+    text-align: center;
+}
