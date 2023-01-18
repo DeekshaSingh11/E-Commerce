@@ -20,7 +20,7 @@ export class SellerService {
 
   constructor(private _http :HttpClient , private _router:Router) { }
   userSignUp(data:model)
-{debugger;
+{
   console.log("hiiytrtrrt");
 let result= this._http.post('http://localhost:3000/seller' , data , 
 {observe:'response'}).subscribe(res=>{
