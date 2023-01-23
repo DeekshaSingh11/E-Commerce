@@ -32,7 +32,7 @@ const routes: Routes = [
   {
     path:'search/:query',
     component:SearchComponent,
-    canActivate:[AuthGuard]
+   // canActivate:[AuthGuard]
   }
 
 

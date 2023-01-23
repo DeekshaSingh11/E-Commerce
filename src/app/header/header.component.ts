@@ -67,6 +67,10 @@ export class HeaderComponent implements OnInit {
   hideProduct(){
     this.searchProduct=undefined;
   }
+  submitSearch(val:string){
+console.log(val);
+this._router.navigate([`search/${val}`]);
+  }
 
 
 }
