@@ -1,8 +1,13 @@
-<div class="row search-item">
-    <div>hii
-<img src="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiq-MnRi938AhXFIysKHVH8Du8YABAUGgJzZg&ohost=www.google.com&cid=CAESbeD2TEu69rWBhMgOKISxSdcz3ZkxMp2iNtRqiketc8Bsc2Q6zWTv7OEnspp7MoAA2CxMRscKCu3eQ1eA1DyoSJ6J-vHBvftXb-Aq5l0l-iBh02PTbti7dHPcGVx9IppliZfec0wzm-28O9Vl-q8&sig=AOD64_0xN9zW4UozQ8DwPfQcTkWQplX3Ug&ctype=5&q=&ved=2ahUKEwiz98HRi938AhWI6jgGHS_VBr4Q9aACKAB6BAgEEBs&adurl="> 
-    </div>
+<div class="row search-item" *ngFor="let item of productList">
     <div>
-
+<a routerLink="/product-detail/{{item.id}}">
+<img   src="{{item.image}}"> 
+</a>
+    </div>
+<div>
+  <h6>{{item.name}}</h6>
+  <p>{{item.color}}</p>
+  <p>{{item.description}}</p>
+  <p>{{item.category}}</p>
     </div>
 </div>
