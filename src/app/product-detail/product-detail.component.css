@@ -1,0 +1,22 @@
+.item-detail{
+    text-align: center;
+    margin-left: 136px;
+    background-color: azure;
+}
+.width{
+    width: 400px;
+}
+button{
+    margin: 18px;
+}
+.input{
+    width: 39px;
+    text-align: center;
+}
+.circle{
+    background-color: black;
+    WIDTH: 26PX;
+    BORDER-RADIUS: 50%;
+    HEIGHT: 26PX;
+    margin: auto;
+}

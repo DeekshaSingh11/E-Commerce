@@ -43,7 +43,7 @@
     {
       "name": "techdemo",
       "price": "700000",
-      "color": "whitedd",
+      "color": "orange",
       "category": "mobilehh",
       "description": "x xz",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaoejcQISYY60BRjltg58OsMVRQKvfoh095g&usqp=CAU",
@@ -52,7 +52,7 @@
     {
       "name": "moto",
       "price": "5000",
-      "color": "white",
+      "color": "pink",
       "category": "mobile",
       "description": "xczzxc",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoxxjUd-vKeC8GIBbyiNTTEwQCnqzJBbHjKA&usqp=CAU",
@@ -70,11 +70,20 @@
     {
       "name": "keypad",
       "price": "5000",
-      "color": "white",
+      "color": "olive",
       "category": "mobile",
       "description": "df",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyop0nZcemKXTz1IPPgGol0zjTyEpdk5rnFQ&usqp=CAU",
       "id": 12
+    },
+    {
+      "name": "laptop",
+      "price": "6776",
+      "color": "green",
+      "category": "electro",
+      "description": "laptop",
+      "image": "https://images.livemint.com/rf/Image-621x414/LiveMint/Period2/2016/06/09/Photos/Processed/InternetBlock-kshB--621x414@LiveMint.jpg",
+      "id": 13
     }
   ]
 }
