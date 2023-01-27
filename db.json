@@ -84,6 +84,107 @@
       "description": "laptop",
       "image": "https://images.livemint.com/rf/Image-621x414/LiveMint/Period2/2016/06/09/Photos/Processed/InternetBlock-kshB--621x414@LiveMint.jpg",
       "id": 13
+    },
+    {
+      "name": "yttyty",
+      "price": "6776",
+      "color": "orange",
+      "category": "electronics",
+      "description": "abc@123",
+      "image": "https://images.livemint.com/rf/Image-621x414/LiveMint/Period2/2016/06/09/Photos/Processed/InternetBlock-kshB--621x414@LiveMint.jpg",
+      "id": 14
+    },
+    {
+      "name": "yttyty",
+      "price": "6776",
+      "color": "orange",
+      "category": "electronics",
+      "description": "abc@123",
+      "image": "https://images.livemint.com/rf/Image-621x414/LiveMint/Period2/2016/06/09/Photos/Processed/InternetBlock-kshB--621x414@LiveMint.jpg",
+      "id": 15
+    },
+    {
+      "name": "yttyty",
+      "price": "6776",
+      "color": "orange",
+      "category": "electronics",
+      "description": "abc@123",
+      "image": "https://images.livemint.com/rf/Image-621x414/LiveMint/Period2/2016/06/09/Photos/Processed/InternetBlock-kshB--621x414@LiveMint.jpg",
+      "id": 16
+    }
+  ],
+  "users": [
+    {
+      "name": "acc",
+      "email": "xxxx",
+      "password": "xsa",
+      "id": 1
+    },
+    {
+      "name": "deeksha",
+      "email": "singh",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "name": "akku",
+      "email": "amit.ameotech@gmail.com",
+      "password": "fg@g",
+      "id": 3
+    },
+    {
+      "name": "akku",
+      "email": "amit.ameotech@gmail.com",
+      "password": "fg@g",
+      "id": 4
+    },
+    {
+      "name": "akku",
+      "email": "amit.ameotech@gmail.com",
+      "password": "fg@g",
+      "id": 5
+    },
+    {
+      "name": "diksha",
+      "email": "sdeeksha333@gmail.com",
+      "password": "123",
+      "id": 6
+    },
+    {
+      "name": "diksha",
+      "email": "sdeeksha333@gmail.com",
+      "password": "123",
+      "id": 7
+    },
+    {
+      "name": "vfg",
+      "email": "vb",
+      "password": "cx",
+      "id": 8
+    },
+    {
+      "name": "abcdemo",
+      "email": "amit.ameotech@gmail.com",
+      "password": "21334",
+      "id": 9
+    },
+    {
+      "name": "gffgfg",
+      "email": "amit.ameotech@gmail.com",
+      "password": "jkh",
+      "id": 10
+    },
+    {
+      "name": "yttyty",
+      "email": "hghghjjhg",
+      "password": " ",
+      "id": 11
+    },
+    {
+      "name": "akku",
+      "email": "8557988984",
+      "password": " vc",
+      "id": 12
     }
   ]
 }
