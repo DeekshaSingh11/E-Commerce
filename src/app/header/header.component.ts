@@ -13,6 +13,8 @@ export class HeaderComponent implements OnInit {
   constructor(private _router: Router, private productService: ProductService) { }
   menuType: string = 'default';
   sellerName: string = '';
+  userName:string='';
+  
   searchProduct: undefined | addProduct[];
 
   ngOnInit(): void {
@@ -30,6 +32,14 @@ export class HeaderComponent implements OnInit {
           console.log(this.sellerName);
           console.log("inside seller")
         }
+        else if(localStorage.getItem('user')){
+          let userStore=localStorage.getItem('user')
+       let userData=userStore && JSON.parse(userStore);
+      this.userName=userData.name;
+      console.log(this.userName);
+      this.menuType = 'user';
+      
+        }
         else {
           this.menuType = "default"
           console.log("outside seller")
@@ -45,6 +55,11 @@ export class HeaderComponent implements OnInit {
     console.log("logout")
     this._router.navigate(['home']);
 
+  }
+  userlogout()
+  {
+    localStorage.removeItem('user');
+    this._router.navigate(['/auth-user']);
   }
   SearchProduct(query: KeyboardEvent) {
     if(query){
@@ -68,6 +83,10 @@ export class HeaderComponent implements OnInit {
   submitSearch(val:string){
 console.log(val);
 this._router.navigate([`search/${val}`]);
+  }
+  redirectDetail(id:number){
+
+ this._router.navigate(['/product-detail/'+id]);
   }
 
 
