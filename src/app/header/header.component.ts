@@ -14,6 +14,7 @@ export class HeaderComponent implements OnInit {
   menuType: string = 'default';
   sellerName: string = '';
   userName:string='';
+  cartItems=0;
   
   searchProduct: undefined | addProduct[];
 
@@ -45,6 +46,20 @@ export class HeaderComponent implements OnInit {
           console.log("outside seller")
         }
       }
+
+    })
+    let cartData=localStorage.getItem('localData');
+    if(cartData)
+    {
+      this.cartItems=JSON.parse(cartData).length;
+    }
+    this.productService.cartData.subscribe(items=>{
+      this.cartItems=items.length;
+
+
+
+
+
 
     })
   }
