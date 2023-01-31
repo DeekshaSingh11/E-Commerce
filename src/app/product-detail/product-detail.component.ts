@@ -34,5 +34,19 @@ else if(this.productCount>1 && val=='dec'){
   this.productCount= this.productCount-1;
 }
   }
+  addCart()
+  {
+    if( this.productDetail)
+    {
+      console.log(this.productDetail ,"hii");
+      this.productDetail.quantity=this.productCount;
+      if(!localStorage.getItem('user')){
+console.log("data set in localstorage")
+this.productService.localAddToCart(this.productDetail)
+      }
+      
+    }
+    
+  }
 
 }

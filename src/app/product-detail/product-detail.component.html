@@ -8,7 +8,7 @@
   <h4> Color:  <P [style.backgroundColor]="productDetail.color" class="circle"></P></h4>
 <h4> Description:   {{productDetail.description}}</h4>
 <h4>category:   {{productDetail.category}}</h4>
-<button>Add to Cart</button>
+<button (click)="addCart()">Add to Cart</button>
 <button> Buy Now</button>
 <div>
     <button (click)="handleEvents('dec')">-</button>
