@@ -55,4 +55,7 @@ export class ProductService {
    }
    this.cartData.emit(cartData);
    }
+   removeCart(){
+    
+   }
 }

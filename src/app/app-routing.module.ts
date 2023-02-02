@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AdditionalInfoComponent } from './additional-info/additional-info.component';
 import { AuthGuard } from './auth.guard';
 import { HomeComponent } from './home/home.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
@@ -43,7 +44,12 @@ const routes: Routes = [
   {
     path:'user-auth',
     component:UserAuthComponent
+  },
+  {
+    path:'additional-info',
+    component:AdditionalInfoComponent
   }
+
 
 
   

@@ -48,5 +48,11 @@ this.productService.localAddToCart(this.productDetail)
     }
     
   }
+  removeCart(){
+    let cartData=localStorage.getItem('localData');
+    if(cartData){
+      localStorage.removeItem('localData');
+    }
+  }
 
 }

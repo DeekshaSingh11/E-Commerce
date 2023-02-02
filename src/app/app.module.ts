@@ -1,8 +1,6 @@
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -16,6 +14,13 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SearchComponent } from './search/search.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
 import { UserAuthComponent } from './user-auth/user-auth.component';
+import { AdditionalInfoComponent } from './additional-info/additional-info.component';
+import {ButtonModule} from 'primeng/button';
+import {BrowserModule} from '@angular/platform-browser';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {AccordionModule} from 'primeng/accordion';     //accordion and accordion tab
+import {MenuItem} from 'primeng/api';      
+
 
 @NgModule({
   declarations: [
@@ -28,7 +33,9 @@ import { UserAuthComponent } from './user-auth/user-auth.component';
     SellerUpdateProductComponent,
     SearchComponent,
     ProductDetailComponent,
-    UserAuthComponent
+    UserAuthComponent,
+    AdditionalInfoComponent
+
   ],
   imports: [
     BrowserModule,
@@ -36,7 +43,13 @@ import { UserAuthComponent } from './user-auth/user-auth.component';
     FormsModule,
     HttpClientModule,
     FontAwesomeModule,
-    NgbModule
+    NgbModule,
+    ButtonModule,
+    BrowserAnimationsModule,
+    AccordionModule,
+    AccordionModule
+    
+   
 
   ],
   providers: [],
